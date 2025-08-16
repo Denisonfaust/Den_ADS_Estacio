@@ -27,7 +27,7 @@ int resultadoB;
 printf("Produto: %s quantidade de estoque: %u seu valor unitário é; R$ %.2f \n", produtoA, estoqueA, valorA);
 printf("Produto: %s quantidade de estoque: %u seu valor unitário é; R$ %.2f \n", produtoB, estoqueB, valorB);
 
-// Comparações com o valor m´nimo de estoques...
+// Comparações com o valor mínimo de estoques...
 
 resultadoA = estoqueA > estoqueminimoA;
 resultadoB = estoqueB > estoqueminimoB;
