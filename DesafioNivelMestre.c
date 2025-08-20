@@ -42,7 +42,7 @@ int main() {
     printf("Estado1: %s \n", estado1);
     printf("Codigo1: %s \n", codigo1);
     printf("Cidade1: %s \n", cidade1);
-    printf("População1: %u\n", populacao1);
+    printf("População1: %lu\n", populacao1);
     printf("Área1: %.2f Km²\n", area1);
     printf("Pib1: %.2f Bilhôes\n", pib1);
     printf("Pontos turisticos1: %d \n", turismo1);
@@ -90,7 +90,7 @@ int main() {
     printf("Estado2: %s \n", estado2);
     printf("Codigo2: %s \n", codigo2);
     printf("Cidade2: %s \n", cidade2);
-    printf("População2: %u\n", populacao2);
+    printf("População2: %lu\n", populacao2);
     printf("Área2: %.2f \n", area2);
     printf("Pib2: %.2f \n", pib2);
     printf("Pontos turisticos2: %d \n", turismo2);
@@ -125,6 +125,16 @@ int main() {
     printf("Densidade: Carta 1: %d\n", resultadoDensidade);
     printf("Pibpercapita: Carta 1: %d\n", resultadoPibpercapita);
     printf("SuperPoder: Carta 1: %d\n", resultadoSuperpoder);
+
+// Comparação da Cartas; Atributo População
+    
+    printf("Carta 1 São Paulo(SP): %lu \n", populacao1);
+    printf("Carta 2 Parana(PR): %lu \n", populacao2);
+    if(populacao1 > populacao2) {
+    printf("Resultado: Carta 1 São Paulo venceu!");
+    }else {
+    printf("Resultado: Carta 2 Parana venceu!");
+    }
 
 
     return 0;
