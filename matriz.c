@@ -2,7 +2,7 @@
  
 int main() {
 
-    // Declarando e inicializando uma matriz 3x3 - 1°[3]Colunas e 2°[3]Linhas
+    // Declarando e inicializando uma matriz 3x3 - 1°[3]Linhas e 2°[3]Colunas
     int matriz[3][3] = {
         {1, 2, 3},
         {4, 5, 6},
